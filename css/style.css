@@ -53,3 +53,58 @@ header nav ul li a:hover {
   background: rgb(255,255,255,0.15);
 }
 
+/* Main */ 
+main {
+  margin-bottom: 100px;
+}
+
+.container-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 980px;
+  margin: 100px auto 0 auto;
+}
+
+h2 {
+  color: black;
+  font-size: 45px;
+  line-height: 50px;
+  font-weight: bold;
+}
+
+h3 {
+  color: rgb(131,131,131);
+  font-size: 20px;
+  line-height: 28px;
+  margin: 10px 0;
+}
+
+form {
+  margin-top: 20px;
+}
+
+input {
+  border-radius: 20px;
+  border: 2px solid #0080ed;
+  width: 380px;
+  height: 45px;
+  font-size: 18px;
+  padding-left: 15px;
+  margin-bottom: 13px;
+}
+
+form [type="submit"] {
+  background-color: #0080ed;
+  color: white;
+}
+
+form [type="submit"]:hover {
+  cursor: pointer;
+}
+
+.container-main img {
+  width: 600px;
+}
+
+
